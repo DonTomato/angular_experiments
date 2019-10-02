@@ -1,0 +1,26 @@
+Скопируйте и вставьте эти скрипты в конец тега <body> перед сервисами Firebase:
+
+content_copy
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.0.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+
+
+
+
+Инициируйте проект
+Выполните эту команду в корневом каталоге приложения:
+content_copy
+firebase init
+Разверните приложение
+Поместите статические файлы (например, HTML, CSS, JS) в каталог развертывания приложения (по умолчанию используется каталог public). Затем выполните следующую команду в корневом каталоге приложения:
+content_copy
+firebase deploy
