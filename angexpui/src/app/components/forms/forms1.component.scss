@@ -1,0 +1,24 @@
+.neb-input {
+  border-radius: 0.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+
+  padding: 0.43rem 1.125rem;
+  margin: 0.5rem;
+
+
+  background-color: #f7f9fc;
+  border-color: #edf1f7;
+  border-style: solid;
+  border-width: 1px;
+  color: #192038;
+
+  &:hover {
+    border-color: #598bff;
+  }
+
+  &:focus {
+    border-color: #274bdb;
+    box-shadow: 0 0 0 0.375rem rgba(143, 155, 179, 0.16);
+  }
+}
