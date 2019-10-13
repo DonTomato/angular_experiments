@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HookComponent } from './components';
+import { HookComponent, Forms1Component } from './components';
 
 
 const routes: Routes = [
-  { path: 'hook', component: HookComponent }
+  { path: '', redirectTo: '/forms', pathMatch: 'full' },
+  { path: 'hook', component: HookComponent },
+  { path: 'forms', component: Forms1Component }
 ];
 
 @NgModule({
