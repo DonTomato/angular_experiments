@@ -1,10 +1,14 @@
-.neb-input {
-  border-radius: 0.25rem;
-  font-weight: 600;
-  line-height: 1.5rem;
+$coef: 0.6;
 
-  padding: 0.43rem 1.125rem;
-  margin: 0.5rem;
+.neb-input {
+  //font-family: "Open Sans", sans-serif;
+
+  border-radius: 0.25rem * $coef;
+  font-weight: 400;
+  line-height: 1.5rem * $coef;
+
+  padding: 0.43rem * $coef 1.125rem * $coef;
+  margin: 0.5rem * $coef;
 
 
   background-color: #f7f9fc;
@@ -19,6 +23,7 @@
 
   &:focus {
     border-color: #274bdb;
-    box-shadow: 0 0 0 0.375rem rgba(143, 155, 179, 0.16);
+    box-shadow: 0 0 0 0.375rem * $coef rgba(143, 155, 179, 0.16);
+    outline: none;
   }
 }
